@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+:root {
+    --sedans-bg-color: hsl(31, 77%, 52%);
+    --suv-bg-color: hsl(184, 100%, 22%);
+    --luxury-bg-color: hsl(179, 100%, 13%);
+    --main-text-color: hsla(0, 0%, 100%, 0.75);
+    --heading-color: hsl(0, 0%, 95%);
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main-bg-color);
+    min-height: 100vh;
+    /* font-family: font-family: 'Big Shoulders Display', cursive; */
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.container h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+}
+
+.container p {
+    color: var(--main-text-color);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.main-card {
+    display: flex;
+    height: 500px;
+    width: 920px;
+    border-radius: 10px;
+}
+
+.sedans-card {
+    background-color: var(--sedans-bg-color);
+    color: var(--heading-color);
+    border-radius: 10px 0 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 47.5px;
+}
+
+.sedans-card h1 {
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+.sedans-card button {
+    color: var(--sedans-bg-color);
+    background-color: var(--heading-color);
+    height: 48px;
+    width: 146px;
+    border-radius: 50px;
+    border: none;
+}
+
+.suv-card {
+    background-color: var(--suv-bg-color);
+    color: var(--heading-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 47.5px;
+}
+
+.suv-card h1 {
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+ .suv-card p {
+     padding-right: 5px;
+ }
+
+.suv-card button {
+    color: var(--suv-bg-color);
+    background-color: var(--heading-color);
+    height: 48px;
+    width: 146px;
+    border-radius: 50px;
+    border: none;
+}
+
+.luxury-card {
+    background-color: var(--luxury-bg-color);
+    color: var(--heading-color);
+    border-radius: 0 10px 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 47.5px;
+}
+
+.luxury-card h1 {
+    margin-bottom: -50px;
+    margin-top: -50px;
+}
+
+.luxury-card button {
+    color: var(--luxury-bg-color);
+    background-color: var(--heading-color);
+    height: 48px;
+    width: 146px;
+    border-radius: 50px;
+    border: none;
+}
+

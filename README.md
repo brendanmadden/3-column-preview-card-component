@@ -25,12 +25,12 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./images/mine.png)
 
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages](https://brendanmadden.github.io/3-column-preview-card-component/)
 
 ## My process
 
@@ -42,14 +42,14 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I continued to build on my knowledge of CSS flexbox during this challenge. I also worked on implementing more effective planning and organization to this project, and I was very happy with the results. I was able to complete this project more quickly than the previous, and the results are without a doubt better.
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+I'd like to continue to learn and increase my knowledge of CSS and flexbox. I'd like to get better at ensuring I'm utilizing best practices when it comes to accessibility and semantic HTML. As I continue with these frontend mentor challenges, and with my frontend development journey, I want to make sure that I'm learning strong fundamentals that I can continue to build on as I continue to learn and grow as a developer.  
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- GitHub - [Brendan Madden](https://github.com/brendanmadden)
+- Frontend Mentor - [@brendanmadden](https://www.frontendmentor.io/profile/brendanmadden)
+- Twitter - [@BrendanMadden_](https://www.twitter.com/BrendanMadden_)

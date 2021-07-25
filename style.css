@@ -20,7 +20,7 @@
     justify-content: center;
     background-color: var(--main-bg-color);
     min-height: 100vh;
-    /* font-family: font-family: 'Big Shoulders Display', cursive; */
+    /* font-family: 'Big Shoulders Display', cursive; */
     font-family: 'Lexend Deca', sans-serif;
 }
 
@@ -67,6 +67,13 @@
     border: none;
 }
 
+.sedans-card button:active, .sedans-card button:hover, .sedans-card button:focus {
+    cursor: pointer;
+    background-color: var(--sedans-bg-color);
+    color: var(--heading-color);
+    border: 2px solid var(--heading-color);
+}
+
 .suv-card {
     background-color: var(--suv-bg-color);
     color: var(--heading-color);
@@ -93,6 +100,13 @@
     border: none;
 }
 
+.suv-card button:active, .suv-card button:hover, .suv-card button:focus {
+    cursor: pointer;
+    background-color: var(--suv-bg-color);
+    color: var(--heading-color);
+    border: 2px solid var(--heading-color);
+}
+
 .luxury-card {
     background-color: var(--luxury-bg-color);
     color: var(--heading-color);
@@ -117,3 +131,67 @@
     border: none;
 }
 
+.luxury-card button:active, .luxury-card button:hover, .luxury-card button:focus {
+    cursor: pointer;
+    background-color: var(--luxury-bg-color);
+    color: var(--heading-color);
+    border: 2px solid var(--heading-color);
+}
+
+@media screen and (max-width: 768px) {
+
+    .container {
+        min-height: 1502px;
+    }
+
+    .main-card {
+        flex-direction: column;
+        height: 1326px;
+        width: 65%;
+    }
+
+    .sedans-card {
+        height: 33%;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .suv-card {
+        height: 33%;
+    }
+
+    .luxury-card {
+        height: 33%;
+        border-radius: 0 0 10px 10px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .sedans-card h1 {
+        margin-bottom: -40px;
+        margin-top: -40px;
+    }
+
+    .sedans-card p {
+        font-size: .7rem;
+    }
+
+    .suv-card h1 {
+        margin-bottom: -40px;
+        margin-top: -40px;
+    }
+
+    .suv-card p {
+        font-size: .7rem;
+    }
+
+    .luxury-card h1 {
+        margin-bottom: -40px;
+        margin-top: -40px;
+    }
+
+    .luxury-card p {
+        font-size: .7rem;
+    }
+}
